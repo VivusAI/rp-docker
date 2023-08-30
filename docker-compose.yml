@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  textgeneration:
+    image: rp-docker 
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['0']
+              capabilities: [gpu]
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "7880:7860"
+      - "5080:5000"

@@ -1,0 +1,7 @@
+name: textgen
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.9
+platform_system:
+  - linux
