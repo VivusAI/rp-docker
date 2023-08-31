@@ -16,10 +16,5 @@ SHELL ["/bin/bash", "--login", "-c"]
 COPY . /app
 COPY entrypoint.sh /app
 
-RUN export PATH=$PATH:/home/appuser/.local/bin
-
-ENV COMMANDLINE_ARGS="--listen --xformers --api --gpu 20 20"
-ENV API_STREAMING_PORT='5080'
-ENV LISTEN_PORT='7880'
 
 ENTRYPOINT ["/bin/bash","/app/entrypoint.sh"]
