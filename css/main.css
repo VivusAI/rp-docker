@@ -216,7 +216,7 @@ audio {
   max-width: 100%;
 }
 
-/* Copied from https://github.com/AUTOMATIC1111/stable-diffusion-webui */
+/* Copied from https://github.com/VivusAI/stable-diffusion-webui */
 .token-counter {
   position: absolute !important;
   top: calc( 0.5 * (100dvh - 215px) ) !important;
