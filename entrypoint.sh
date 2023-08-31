@@ -19,4 +19,4 @@ git clone https://github.com/VivusAI/rp-docker.git \
 set -euo pipefail
 
 # exec the final command:
-exec python server.py --listen --xformers --api --gpu 20 20
+exec python server.py --listen --xformers --api --gpu-memory 20 20
