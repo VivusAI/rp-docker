@@ -11,7 +11,7 @@ set +euo pipefail
 conda init bash
 conda activate textgen
 
-echo PATH=$PATH:/home/appuser/.local/bin
+export PATH=$PATH:/home/appuser/.local/bin
 
 git clone https://github.com/VivusAI/rp-docker.git \
 && cd rp-docker \
