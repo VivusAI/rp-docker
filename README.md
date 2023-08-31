@@ -2,7 +2,7 @@
 
 A Gradio web UI for Large Language Models.
 
-Its goal is to become the [VivusAI/stable-diffusion-webui](https://github.com/VivusAI/stable-diffusion-webui) of text generation.
+Its goal is to become the [VivusAI/sd-docker](https://github.com/VivusAI/sd-docker) of text generation.
 
 |![Image1](https://github.com/oobabooga/screenshots/raw/main/print_instruct.png) | ![Image2](https://github.com/oobabooga/screenshots/raw/main/print_chat.png) |
 |:---:|:---:|

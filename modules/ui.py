@@ -204,7 +204,7 @@ def save_settings(state, preset, instruction_template, extensions, show_controls
 class ToolButton(gr.Button, gr.components.IOComponent):
     """
     Small button with single emoji as text, fits inside gradio forms
-    Copied from https://github.com/VivusAI/stable-diffusion-webui
+    Copied from https://github.com/VivusAI/sd-docker
     """
 
     def __init__(self, **kwargs):
@@ -216,7 +216,7 @@ class ToolButton(gr.Button, gr.components.IOComponent):
 
 def create_refresh_button(refresh_component, refresh_method, refreshed_args, elem_class):
     """
-    Copied from https://github.com/VivusAI/stable-diffusion-webui
+    Copied from https://github.com/VivusAI/sd-docker
     """
     def refresh():
         refresh_method()

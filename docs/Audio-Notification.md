@@ -9,6 +9,6 @@ Simply place a file called "notification.mp3" in the same folder as `server.py`.
 * https://pixabay.com/sound-effects/search/ding/?duration=0-30
 * https://pixabay.com/sound-effects/search/notification/?duration=0-30
 
-Source: https://github.com/VivusAI/stable-diffusion-webui/pull/1126
+Source: https://github.com/VivusAI/sd-docker/pull/1126
 
 This file will be automatically detected the next time you start the web UI.

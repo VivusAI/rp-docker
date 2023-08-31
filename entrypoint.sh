@@ -11,8 +11,6 @@ set +euo pipefail
 conda init bash
 conda activate textgen
 
-export PATH=$PATH:/home/appuser/.local/bin
-
 git clone https://github.com/VivusAI/rp-docker.git \
 && cd rp-docker \
 && pip install xformers \
