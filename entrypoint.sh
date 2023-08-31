@@ -11,8 +11,12 @@ set +euo pipefail
 conda init bash
 conda activate textgen
 
+echo PATH=$PATH:/home/appuser/.local/bin
+
 git clone https://github.com/VivusAI/rp-docker.git \
 && cd rp-docker \
+&& pip install xformers \
+&& pip install perftool \
 && pip install -r requirements.txt
 
 # Re-enable strict mode:
